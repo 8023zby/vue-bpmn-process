@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-10-29 16:30:19
+ * @LastEditTime: 2021-11-02 10:18:03
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \bpmn-js\src\views\bpmn-modeler.vue
+-->
 <template>
   <div class="containers">
     <div class="canvas" ref="canvas"></div>
@@ -5,7 +13,8 @@
 </template>
 
 <script>
-import BpmnModeler from "bpmn-js/lib/Modeler";
+// import BpmnModeler from "bpmn-js/lib/Modeler";
+import { CustomModeler } from "../components/customBpmn";
 import { xmlStr } from "../mock/xmlStr";
 
 export default {
@@ -23,7 +32,7 @@ export default {
   methods: {
     init() {
       const canvas = this.$refs.canvas;
-      this.bpmnModeler = new BpmnModeler({
+      this.bpmnModeler = new CustomModeler({
         container: canvas
       });
 
