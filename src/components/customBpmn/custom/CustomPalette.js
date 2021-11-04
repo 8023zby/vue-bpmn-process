@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-11-02 10:12:59
- * @LastEditTime: 2021-11-02 10:12:59
+ * @LastEditTime: 2021-11-04 14:07:19
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \bpmn-js\src\components\customBpmn\custom\CustomPalette.js
@@ -91,6 +91,13 @@ PaletteProvider.prototype.getPaletteEntries = function (element) {
       group: "tools",
       separator: true
     },
+    
+    "create.iu": createAction(
+      "bpmn:Task",
+      "event",
+      "icon-custom bpmn-icon-iu",
+      "创建iu节点"
+    ),
 
     "create.start-event": createAction(
       "bpmn:StartEvent",

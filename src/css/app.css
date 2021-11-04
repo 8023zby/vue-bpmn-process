@@ -1,0 +1,16 @@
+.bpmn-icon-iu {
+  background-image: url('../components/static/iu.png');
+}
+.bpmn-icon-iu-contenPad::before {
+  content: '';
+  background-image: url('../components/static/iu.png');
+  background-size: 100% 100%;
+  width: 22px;
+  height: 22px;
+}
+ 
+.icon-custom {
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

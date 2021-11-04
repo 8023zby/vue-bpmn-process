@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2021-10-29 16:30:19
- * @LastEditTime: 2021-10-29 16:38:08
- * @LastEditors: your name
+ * @LastEditTime: 2021-11-04 11:11:44
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \bpmn-js\src\main.js
  */
@@ -17,6 +17,8 @@ import "bpmn-js/dist/assets/diagram-js.css";
 import "bpmn-js/dist/assets/bpmn-font/css/bpmn.css";
 import "bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css";
 import "bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css";
+
+import './css/app.css'
 
 new Vue({
   router,
